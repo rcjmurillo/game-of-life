@@ -88,7 +88,7 @@ func (g *Game) String() string {
 	return s
 }
 
-// Start the game ticking sleeping 1 second between each tick
+// Start the game ticking sleeping 500 miliseconds between each tick
 func (g *Game) Start() {
 	go func() {
 		for !g.stop {
