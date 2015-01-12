@@ -15,6 +15,8 @@ Or import the game package:
 
         import "github.com/rcjmurillo/game-of-life/game"
 
+And use it as in main.go
+
 ## Some patterns
 
         // Pattern 1
