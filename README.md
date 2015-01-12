@@ -53,6 +53,15 @@ Or import the game package:
             {23, 21}, {22, 20}, {22, 22}, {21, 21},
         })
 
+        // Four spaceships
+        g := game.NewGame(41, 41)
+        g.Seed([]game.Point{
+            {1, 1}, {2, 2}, {2, 3}, {3, 2}, {3, 1},
+            {39, 1}, {38, 2}, {38, 3}, {37, 2}, {37, 1},
+            {1, 39}, {2, 38}, {2, 37}, {3, 38}, {3, 39},
+            {39, 39}, {38, 38}, {38, 37}, {37, 38}, {37, 39},
+        })
+
 ## License
 
 Game of Life is released under the [MIT License](http://www.opensource.org/licenses/MIT).
